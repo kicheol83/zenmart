@@ -1,10 +1,9 @@
 .home_page {
-  padding-bottom: 60px;
   display: flex;
   flex-direction: column;
 }
 
-.white_svg{
+.white_svg {
   filter: brightness(0) invert(1);
 }
 .contairner .category_top {
@@ -802,6 +801,7 @@
   justify-content: center;
 
   background-image: url(../images/icons/event_bg.png);
+  background-size: cover;
 }
 
 .event_frame .contairner {
@@ -834,7 +834,7 @@
   flex-direction: row;
 }
 
-.event_frame .timer_wrapper .timer_box{
+.event_frame .timer_wrapper .timer_box {
   width: 82px;
   height: auto;
 
@@ -842,7 +842,7 @@
   flex-direction: column;
 }
 
-.event_frame .timer_box strong{
+.event_frame .timer_box strong {
   color: white;
   font-style: normal;
   font-size: 28px;
@@ -850,7 +850,7 @@
   font-weight: 500;
 }
 
-.event_frame .timer_box span{
+.event_frame .timer_box span {
   color: white;
   font-style: normal;
   font-size: 16px;
@@ -863,23 +863,23 @@
   width: 140px;
   height: 50px;
 
-display: flex;
-align-items: center;
-justify-content: center;
-text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
 
-background: #ffffff;
-color: #041E42;
-font-style: normal;
-font-size: 15px;
-font-family: "Jost";
-font-weight: 500;
-line-height: 22px;
-border: 1px solid #ffffff;
-border-radius: 6px;
+  background: #ffffff;
+  color: #041e42;
+  font-style: normal;
+  font-size: 15px;
+  font-family: "Jost";
+  font-weight: 500;
+  line-height: 22px;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
 }
 
-.event_frame .contairner .event_product_wrapper{
+.event_frame .contairner .event_product_wrapper {
   width: 930px;
   height: auto;
 
@@ -887,7 +887,7 @@ border-radius: 6px;
   flex-direction: row;
 }
 
-.event_frame .event_product_wrapper .event_product_boxes{
+.event_frame .event_product_wrapper .event_product_boxes {
   position: relative;
   width: auto;
   height: auto;
@@ -897,7 +897,7 @@ border-radius: 6px;
   align-items: center;
 }
 
-.event_frame .event_product_boxes .event_product_box{
+.event_frame .event_product_boxes .event_product_box {
   margin-right: 8px;
   width: 205px;
   height: 392px;
@@ -908,7 +908,7 @@ border-radius: 6px;
   background-color: #ffffff;
 }
 
-.event_frame .event_product_box .event_product_img{
+.event_frame .event_product_box .event_product_img {
   width: 100%;
   height: 220px;
 
@@ -916,3 +916,5 @@ border-radius: 6px;
   align-items: center;
   justify-content: center;
 }
+
+
