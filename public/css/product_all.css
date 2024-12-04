@@ -510,6 +510,14 @@
   cursor: pointer;
 }
 
+.shop_page .products_filters .filter_box:hover {
+  background: #eaeaea;
+}
+
+.shop_page .products_filters .filter_box.active{
+  background: #626974;
+}
+
 .shop_page .filter_box select {
   background: none;
   border: none;
@@ -532,7 +540,6 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
-
 
 .shop_page .all_products_frame .contairner .pro_pagination_box {
   margin-top: 60px;
